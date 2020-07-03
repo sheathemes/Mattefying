@@ -742,6 +742,9 @@ figcaption p {
     justify-content: space-between;
     padding: 10px 20px;
     width: 700px;
+    {block:ifverticalposts}
+    width: 540px;
+    {/block:ifverticalposts}
     color: {color:permalink};
     background-color: {color:permalink background};
     box-sizing: border-box;
