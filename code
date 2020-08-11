@@ -2081,9 +2081,19 @@ Posted {ShortMonth} {DayOfMonthWithZero}, {Year} @ {12Hour} {AmPm}
 <!-----------Tooltips Script----------->
 <script src="https://unpkg.com/popper.js@1"></script> <script src="https://unpkg.com/tippy.js@5/dist/tippy-bundle.iife.js"></script> <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/dist/svg-arrow.css" />
 <!-----------Tooltips Script----------->
+
+<!-----------NPF photosets script by annasthms @ tumblr----------->
+<script src="https://static.tumblr.com/0podkko/qWqq8va08/photosets.js"></script>
+<!-----------NPF photosets script by annasthms @ tumblr----------->
  
 <script>
 $(document).ready(function(){
+    //NPF photosets script by annasthms
+    undoPhotoset({
+        'posts': '.posts', 
+        'text class': 'caption',
+        'photoset class': 'photoset'
+    },true); 
     $('.photo-slideshow').pxuPhotoset({
         lightbox: true,
         rounded: false,
