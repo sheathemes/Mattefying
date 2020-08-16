@@ -34,6 +34,8 @@ CREDITS
 > Icons: https://themify.me/themify-icons
  
 > Smoothscroll script: https://cdnjs.com/libraries/smoothscroll
+
+> NPF Photoset Fix: https://annalogs.tumblr.com/photosets
  
 !-->
  
@@ -1181,7 +1183,7 @@ figcaption p {
     height: 35px;
     border: 5px solid {color:question background};
     position: absolute;
-    margin-top: -35px;
+    margin-top: -70px;
 }
  
 .ask-portrait {
@@ -1794,6 +1796,7 @@ width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
 {/block:NoRebloggedFrom} -->
  
 {block:Text}
+<div class="text">
 {block:Title}<div class="title">{Title}</div>{/block:Title}
 <div class="caption">{block:NotReblog} <figcaption> {Body} </figcaption> {/block:NotReblog} {block:RebloggedFrom} <div class="reblog-list">
  
@@ -1804,6 +1807,7 @@ width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
 {block:IsDeactivated} <span class="inactive {block:isNotOriginalEntry} sub-reblog{/block:isNotOriginalEntry}"> <img src="{PortraitURL-64}"> </span> {/block:IsDeactivated} {block:IsActive} <a target="_blank" href="{Permalink}" class="user"> {Username} </a> {/block:IsActive}
  
 {block:IsDeactivated} <span class="inactive deactivated">{Username} </span> {/block:IsDeactivated} </div> <div class="reblog-content"> {Body} </div> </div> {/block:Reblogs} </div> {/block:RebloggedFrom} </div>
+</div>
 {/block:Text}
  
 {block:Photo}
