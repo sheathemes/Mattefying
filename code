@@ -47,7 +47,7 @@ CREDITS
 <!--Custom Fonts-->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:wght@400;700&family=Merriweather:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Open+Sans:wght@400;700&family=Playfair+Display&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
-!--Custom Fonts-->
+<!--Custom Fonts-->
  
 <!--Homelinks Icons-->
 <link href="//dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet">
@@ -370,16 +370,16 @@ small,sub,sup {
  
 h1,h2,h3 {
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.4em;
     color: {color:bold};
 }
  
 h4,h5,h6 {
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 1.2em;
     color: {color:bold};
 }
- 
+
 pre {
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
@@ -390,8 +390,8 @@ pre {
     font-family: inherit;
     font-weight: 400;
     line-height: 150%;
-    background-color:{color:caption background};
-    border-left: 5px solid {color:accent};
+    color: {color:pre formated text};
+    background-color: {color:pre formated background};
 }
  
 blockquote {
